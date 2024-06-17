@@ -63,6 +63,7 @@
 		E7D5B13E2BB470A700EA94CE /* PhotoCaptureScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureScreen.swift; sourceTree = "<group>"; };
 		E7D5B1402BB4721200EA94CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E7D9C2A92C20D39D003D791A /* newmodel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = newmodel.mlmodel; sourceTree = "<group>"; };
+		E7D9C2AB2C20E596003D791A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +94,7 @@
 		E751EC0E2BB0CE5700BFC8A1 = {
 			isa = PBXGroup;
 			children = (
+				E7D9C2AB2C20E596003D791A /* README.md */,
 				E751EC192BB0CE5700BFC8A1 /* MasterWang */,
 				E751EC2A2BB0CE5B00BFC8A1 /* MasterWangTests */,
 				E751EC342BB0CE5B00BFC8A1 /* MasterWangUITests */,
