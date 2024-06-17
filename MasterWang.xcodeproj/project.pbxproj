@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7277EED2BFCAA0700AD1531 /* GestureDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7277EEC2BFCAA0700AD1531 /* GestureDetection.swift */; };
+		E742D4FE2BD0038E0010720B /* DataCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E742D4FD2BD0038E0010720B /* DataCollection.swift */; };
 		E751EC1B2BB0CE5700BFC8A1 /* MasterWangApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751EC1A2BB0CE5700BFC8A1 /* MasterWangApp.swift */; };
 		E751EC1D2BB0CE5700BFC8A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751EC1C2BB0CE5700BFC8A1 /* ContentView.swift */; };
 		E751EC1F2BB0CE5B00BFC8A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E751EC1E2BB0CE5B00BFC8A1 /* Assets.xcassets */; };
@@ -14,6 +16,13 @@
 		E751EC2C2BB0CE5B00BFC8A1 /* MasterWangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751EC2B2BB0CE5B00BFC8A1 /* MasterWangTests.swift */; };
 		E751EC362BB0CE5B00BFC8A1 /* MasterWangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751EC352BB0CE5B00BFC8A1 /* MasterWangUITests.swift */; };
 		E751EC382BB0CE5B00BFC8A1 /* MasterWangUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751EC372BB0CE5B00BFC8A1 /* MasterWangUITestsLaunchTests.swift */; };
+		E7A0A1522BC6CF8600CE4687 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E7A0A1512BC6CF3C00CE4687 /* Resnet50.mlmodel */; };
+		E7A0A1542BC6D05500CE4687 /* CoreMLDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A0A1532BC6D05500CE4687 /* CoreMLDemo.swift */; };
+		E7D5B1392BB467C400EA94CE /* SensorDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5B1382BB467C400EA94CE /* SensorDataView.swift */; };
+		E7D5B13B2BB4695600EA94CE /* SensorDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5B13A2BB4695600EA94CE /* SensorDataModel.swift */; };
+		E7D5B13D2BB46F8100EA94CE /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5B13C2BB46F8100EA94CE /* PhotoCaptureView.swift */; };
+		E7D5B13F2BB470A700EA94CE /* PhotoCaptureScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5B13E2BB470A700EA94CE /* PhotoCaptureScreen.swift */; };
+		E7D9C2AA2C20D39D003D791A /* newmodel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E7D9C2A92C20D39D003D791A /* newmodel.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E7277EEC2BFCAA0700AD1531 /* GestureDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDetection.swift; sourceTree = "<group>"; };
+		E742D4FD2BD0038E0010720B /* DataCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollection.swift; sourceTree = "<group>"; };
 		E751EC172BB0CE5700BFC8A1 /* MasterWang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterWang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E751EC1A2BB0CE5700BFC8A1 /* MasterWangApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterWangApp.swift; sourceTree = "<group>"; };
 		E751EC1C2BB0CE5700BFC8A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +55,14 @@
 		E751EC312BB0CE5B00BFC8A1 /* MasterWangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterWangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E751EC352BB0CE5B00BFC8A1 /* MasterWangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterWangUITests.swift; sourceTree = "<group>"; };
 		E751EC372BB0CE5B00BFC8A1 /* MasterWangUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterWangUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E7A0A1512BC6CF3C00CE4687 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = ../Resnet50.mlmodel; sourceTree = "<group>"; };
+		E7A0A1532BC6D05500CE4687 /* CoreMLDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLDemo.swift; sourceTree = "<group>"; };
+		E7D5B1382BB467C400EA94CE /* SensorDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorDataView.swift; sourceTree = "<group>"; };
+		E7D5B13A2BB4695600EA94CE /* SensorDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorDataModel.swift; sourceTree = "<group>"; };
+		E7D5B13C2BB46F8100EA94CE /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
+		E7D5B13E2BB470A700EA94CE /* PhotoCaptureScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureScreen.swift; sourceTree = "<group>"; };
+		E7D5B1402BB4721200EA94CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E7D9C2A92C20D39D003D791A /* newmodel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = newmodel.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +113,18 @@
 		E751EC192BB0CE5700BFC8A1 /* MasterWang */ = {
 			isa = PBXGroup;
 			children = (
+				E7D5B1402BB4721200EA94CE /* Info.plist */,
 				E751EC1A2BB0CE5700BFC8A1 /* MasterWangApp.swift */,
+				E7A0A1512BC6CF3C00CE4687 /* Resnet50.mlmodel */,
 				E751EC1C2BB0CE5700BFC8A1 /* ContentView.swift */,
+				E742D4FD2BD0038E0010720B /* DataCollection.swift */,
+				E7D9C2A92C20D39D003D791A /* newmodel.mlmodel */,
+				E7D5B13E2BB470A700EA94CE /* PhotoCaptureScreen.swift */,
+				E7A0A1532BC6D05500CE4687 /* CoreMLDemo.swift */,
+				E7D5B13C2BB46F8100EA94CE /* PhotoCaptureView.swift */,
+				E7277EEC2BFCAA0700AD1531 /* GestureDetection.swift */,
+				E7D5B13A2BB4695600EA94CE /* SensorDataModel.swift */,
+				E7D5B1382BB467C400EA94CE /* SensorDataView.swift */,
 				E751EC1E2BB0CE5B00BFC8A1 /* Assets.xcassets */,
 				E751EC202BB0CE5B00BFC8A1 /* Preview Content */,
 			);
@@ -257,8 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7D5B1392BB467C400EA94CE /* SensorDataView.swift in Sources */,
+				E7277EED2BFCAA0700AD1531 /* GestureDetection.swift in Sources */,
+				E7D5B13F2BB470A700EA94CE /* PhotoCaptureScreen.swift in Sources */,
+				E7D9C2AA2C20D39D003D791A /* newmodel.mlmodel in Sources */,
+				E7A0A1542BC6D05500CE4687 /* CoreMLDemo.swift in Sources */,
+				E7D5B13B2BB4695600EA94CE /* SensorDataModel.swift in Sources */,
 				E751EC1D2BB0CE5700BFC8A1 /* ContentView.swift in Sources */,
 				E751EC1B2BB0CE5700BFC8A1 /* MasterWangApp.swift in Sources */,
+				E742D4FE2BD0038E0010720B /* DataCollection.swift in Sources */,
+				E7A0A1522BC6CF8600CE4687 /* Resnet50.mlmodel in Sources */,
+				E7D5B13D2BB46F8100EA94CE /* PhotoCaptureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -419,16 +457,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MasterWang/Preview Content\"";
+				DEVELOPMENT_TEAM = FN742NS9H7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MasterWang/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,6 +478,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nanguoyu.MasterWang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,16 +490,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MasterWang/Preview Content\"";
+				DEVELOPMENT_TEAM = FN742NS9H7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MasterWang/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +511,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nanguoyu.MasterWang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,8 +523,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FN742NS9H7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
@@ -494,8 +544,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FN742NS9H7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
@@ -512,8 +564,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FN742NS9H7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nanguoyu.MasterWangUITests;
@@ -529,8 +583,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FN742NS9H7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nanguoyu.MasterWangUITests;
